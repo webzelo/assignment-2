@@ -6,7 +6,11 @@
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
-    "width" 100;
+    "wdth" 100;
+}
+.bg-color{
+  background-color: #f5f8ff;
+  padding: 20px 20px;
 }
 .navbar{
   display: flex;
@@ -23,4 +27,29 @@
   list-style: none;
   font-size: 20px;
   
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  
+  padding: 10rem 15rem 10rem 15rem;
+  background-color: #f5f8ff;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 1);
+  width: 570px;
+  height: 108px;
+}
+.banner-description{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5) ;
+  width: 570px;
+  height: 108px;
+}
+#banner-title-heading{
+  color: rgba(233, 90, 8, 1);
 }
