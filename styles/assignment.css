@@ -30,7 +30,9 @@
   list-style: none;
   font-size: 20px;
 }
-
+#cart{
+  margin-right: 10px;
+}
 .banner{
   display: flex;
   justify-content: space-between;
