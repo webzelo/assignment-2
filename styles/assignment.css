@@ -69,6 +69,7 @@
   background-color: #f5f8ff;
   margin: 0 auto;
   padding: 1px;
+  background-image: url('deal-bloom.png');
 }
 .heading-title{
   font-size: 50px;
@@ -108,7 +109,6 @@
   justify-content: center;
   background-color: #f5f8ff;
   padding: 80px 15px;
-  mar
 }
 .plants-lover-content{
   gap: 20;
@@ -121,4 +121,13 @@
 }
 .deals-1{
   display: flex;
+}
+.boom-plant{
+  width: 367px;
+  height: 423px;
+  background-image: url('deal-bloom.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
