@@ -60,6 +60,15 @@
   height: 108px;
   margin: 0 auto;
   justify-content: center;
+  text-align: center;
+}
+.heading-description-2{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5) ;
+  width: 888px;
+  height: 108px;
+  margin: 0 auto;
+  justify-content: center;
 }
 .banner-title-heading{
   color: rgba(233, 90, 8, 1);
@@ -69,12 +78,10 @@
   background-color: #f5f8ff;
   margin: 0 auto;
   padding: 1px;
-  background-image: url('deal-bloom.png');
 }
 .heading-title{
   font-size: 50px;
   color: rgba(0, 0, 0, 1);
-  
 }
 .product{
   display: grid;
@@ -123,11 +130,64 @@
   display: flex;
 }
 .boom-plant{
-  width: 367px;
-  height: 423px;
-  background-image: url('deal-bloom.png');
+  width: 366px;
+  height: 206px;
+  background-image: url('../images/deal-bloom.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
+  align-content: center;
+  text-align: center;
+  opacity: 0.7;
+  border-radius: 15px;
+  margin: 0px 15px 15px 0px;
+}
+.ana-plant{
+  width: 366px;
+  height: 206px;
+  background-image: url('../images/deal-ana.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  opacity: 0.7;
+  border-radius: 15px;
+  margin: 0px 15px 15px 0px;
+}
+.zabo-plant{
+  width: 753px;
+  height: 423.13px;
+  background-image: url('../images/deal-zabo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  opacity: 0.7;
+  border-radius: 15px;
+  margin: 0px 15px 15px 0px;
+  padding-bottom: 5px;
+}
+.deal-heading{
+  font-size: 20px;
+  font-weight: 700;
+  color:#ffffff;
+}
+.deal-heading-button{
+   font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
+}
+.deal-heading-2{
+  font-size: 40px;
+  font-weight: 700;
+  color:#ffffff;
+}
+.deal-heading-button-2{
+   font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
 }
