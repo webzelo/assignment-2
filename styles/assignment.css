@@ -248,7 +248,211 @@
 #badge{
   width: 286px;
   height: 286px;
-  
-
   margin: -100px -40px 400px -180px;
 }
+
+/*Responsive CSS*/
+
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+    .navbar {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 15px;
+    }
+    .nav-links {
+        flex-direction: row; 
+        text-align: center; 
+        margin-top: 15px; 
+        padding: 0;
+        gap: 10px;
+    }
+    .nav-item {
+        margin: 10px 0; 
+        font-size: 18px;
+    }
+    #cart {
+        margin: 5px 0px;
+    }
+    .banner {
+        flex-direction: column; 
+        padding: 10px 20px;
+        text-align: left;
+    }
+
+    .banner > div:nth-child(1) { 
+        order: 1; 
+        margin-top: 20px;
+    }
+    .banner > div:nth-child(2) { 
+        order: 0;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .banner-description, .heading-description {
+        font-size: 16px;
+        width: 100%; 
+        height: auto;
+        padding: 0 10px; 
+        margin: 0 auto 20px auto;
+    }
+    
+    .our-plants {
+        padding: 30px 10px;
+    }
+    
+    .heading-title {
+        font-size: 30px;
+        padding-left: 0;
+        text-align: left;
+    }
+    .product {
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px; 
+        padding: 0 20px;
+    }
+    .grid {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .grid img {
+        max-width: 100%;
+        height: auto;
+    }
+    .btn-primary {
+        width: calc(100% - 40px);
+        padding: 15px 0; 
+        font-size: 14px; 
+        margin: 15px auto; 
+        display: block; 
+    }
+
+    .h4-heading, .price {
+        text-align: center;
+    }
+    .plants-lover {
+        flex-direction: column;
+        padding: 40px 20px; 
+        align-items: left;
+    }
+    .plants-lover img {
+        max-width: 100%; 
+        height: auto;
+        margin-bottom: 20px;
+    }
+    #badge {
+        display: none;
+    }
+    .plants-lover-content {
+        text-align: center; 
+        padding: 0 10px;
+    }
+    .heading-description-2 {
+        width: 100%; 
+        height: auto;
+        margin: 10px 0; 
+        font-size: 16px; 
+        text-align: left; 
+    }
+    .deals {
+        padding: 1px 10px 50px 10px;
+    }
+    .deals-1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px; 
+        
+    }
+    .boom-plant,
+    .ana-plant,
+    .zabo-plant {
+        width: 100%; 
+        max-width: 350px; 
+        height: 200px; 
+        margin: 0 0 15px 0; 
+        background-size: cover;
+        background-position: center; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        opacity: 1; 
+        padding: 0 40px;
+        margin-left: -40px;
+    }
+    .zabo-plant {
+        height: 300px; 
+        padding-bottom: 0; 
+        max-width: 270px; 
+        height: 200px; 
+        width: 100%; 
+        margin-left: 2px;
+    }
+    .deal-heading {
+        font-size: 24px; 
+    }
+    .deal-heading-button {
+        font-size: 16px; 
+    }
+    .deal-heading-2 {
+        font-size: 30px; 
+    }
+    .deal-heading-button-2 {
+        font-size: 20px; 
+    }
+    .newsletter {
+        width: 100%; 
+        height: auto;
+        padding: 50px 20px; 
+        background-size: cover;
+        background-position: center;
+        opacity: 1; 
+    }
+    .form {
+        flex-direction: row;
+        width: 100%;
+        max-width: 350px;
+        margin: 0px auto;
+    }
+    .form input[type="text"] {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 15px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .btn-secondary {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+      }
+    .footer-bg {
+        flex-direction: column; 
+        padding: 40px 20px; 
+        
+    }
+    .bottom {
+        flex-direction: column;
+        gap: 0px;
+        align-items: left; 
+    }
+    .footer-bg img {
+        margin-bottom: 15px;
+    }
+    .footer-nav-links {
+        margin: 0;
+        text-align: left;
+        margin-left: -30px;
+    }
+    .footer-img {
+        margin: 10px;
+    }
+} 
