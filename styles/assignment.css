@@ -175,7 +175,7 @@
   color:#ffffff;
 }
 .deal-heading-button{
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 700;
   color: #ffffff;
   text-decoration: underline;
@@ -186,8 +186,22 @@
   color:#ffffff;
 }
 .deal-heading-button-2{
-   font-size: 28px;
+  font-size: 28px;
   font-weight: 700;
   color: #ffffff;
   text-decoration: underline;
+}
+.newsletter{
+  justify-items: center;
+  background-color: #f5f8ff;
+  width: 118rem;
+  height: 533px;
+  padding: 1px;
+  background-image: url('../images/news-letter-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  opacity: 0.7;
 }
