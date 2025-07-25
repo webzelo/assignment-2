@@ -113,6 +113,12 @@
 .plants-lover-content{
   gap: 20;
 }
-.padding-left{
-  padding-left: 80px;
+.deals{
+  justify-items: center;
+  background-color: #f5f8ff;
+  margin: 0 auto;
+  padding: 1px;
+}
+.deals-1{
+  display: flex;
 }
