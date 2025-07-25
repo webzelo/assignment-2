@@ -29,8 +29,8 @@
   display: flex;
   list-style: none;
   font-size: 20px;
-  
 }
+
 .banner{
   display: flex;
   justify-content: space-between;
@@ -219,4 +219,25 @@
   padding-left: 20px;
   font-size: 16px;
   display: flex;
+}
+.bottom{
+  display: flex;
+}
+.footer-bg{
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5rem 8rem 5rem 8rem;
+  background-color: #f5f8ff;
+}
+.footer-nav-links{
+  list-style: none;
+  font-size: 20px;
+  padding: 0px 160px 32px 0px;
+  color: rgba(107, 114, 128, 1);
+}
+.footer-img{
+  margin: 0 auto;
+  padding: 15px 20px 20px 20px;
+  
 }
